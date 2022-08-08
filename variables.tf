@@ -1,3 +1,25 @@
+#########################
+# variable "terraform_remote_state_address" {
+#   type = string
+#   description = "Gitlab remote state file address"
+  
+# }
+
+# variable "terraform_username" {
+#   type = string
+#   description = "Gitlab username to query remote state"
+# }
+
+# variable "terraform_access_token" {
+#   type = string
+#   description = "GitLab access token to query remote state"
+# }
+
+# variable "terraform_state_name" {
+#     type = string
+#     default = "default"
+# }
+
 variable "resource_group_prefix" {
   default       = "RG"
   description   = "Prefix of the resource group name that's combined with a random ID so name is unique in your Azure subscription."
