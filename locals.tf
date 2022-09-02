@@ -7,7 +7,7 @@ locals {
         Tier        = var.tag_tier
     }
 
-    appgwyname = "appgwy-abnamro-challenge"
+    appgwyname = "appgwy-aks-ingress"
     
 
 }

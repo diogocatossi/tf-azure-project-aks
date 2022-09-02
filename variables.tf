@@ -55,7 +55,7 @@ variable "tag_product" {
 
 variable "tag_squad" {
   type    = string
-  default = "abn-innovation"
+  default = "squadname"
 }
 
 variable "tag_tier" {
